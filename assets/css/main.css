@@ -2098,7 +2098,8 @@ a:link {
 	.sudoku{
 		max-width: 18em;
 		position:absolute;
-		margin-top: 1%;	
+		margin-top: 2%;	
+		margin-bottom: 2%;	
 			
 		
 		
@@ -2108,7 +2109,7 @@ a:link {
 		  .issueTracker{
 			max-width: 18em;
 			position:absolute;
-			margin-top: 1%;
+			margin-top: 2%;
 			
 			
 			
