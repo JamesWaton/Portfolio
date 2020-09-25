@@ -358,7 +358,7 @@ input, select, textarea {
 		flex-wrap: wrap;
 		box-sizing: border-box;
 		align-items: stretch;
-		
+		border-radius: 25px;
 	}
 
 		.row > * {
@@ -2082,37 +2082,41 @@ a:link {
 
 
 	/* Projects */
-	.sudoku{
+	
+	.hide {
+		display: none;
+	  }
+	.phoneShop{
 		max-width: 18em;
 		position:absolute;
 		
 		
+	}	
+
+	
+	
+	.sudoku{
+		max-width: 18em;
+		position:absolute;
+		margin-top: 1%;	
+			
 		
 		
-		
-	}
-	.hide {
-		display: none;
-	  }
-		  
+	}		  
 	 
 
 		  .issueTracker{
 			max-width: 18em;
 			position:absolute;
-			padding-top: 2%;
+			margin-top: 1%;
+			
 			
 			
 		}
 		
 			
 
-	.phoneShop{
-		max-width: 18em;
-		position:absolute;
-		border-radius: 25px;
-		
-	}	
+	
 	
 
 
@@ -2238,7 +2242,7 @@ a:link {
 		.wrapper.style4 {	
 			text-align: center;	
 			text-size-adjust: 80%;			
-			background-color: #303030;
+			background-color: #444;
 			color: #999;
 			text-shadow: -1px -1px 0px #181818;
 			
