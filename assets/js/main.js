@@ -1,14 +1,13 @@
+
+
+
+
+
+
 /*
 	Adding button to show video when cicking preview button
 */
-function sudoku() {
-    var x = document.getElementById("sudokuVid");
-    if (x.style.display === "none") {
-      x.style.display = "block";
-    } else {
-      x.style.display = "none";
-    }
-  }
+
   function sudoku() {
 	var x = document.getElementById('sudokuVid');
 	if (x.style.visibility === 'hidden') {
@@ -20,14 +19,7 @@ function sudoku() {
 
 
 
-function issue() {
-    var x = document.getElementById("issueVid");
-    if (x.style.display === "none") {
-      x.style.display = "block";
-    } else {
-      x.style.display = "none";
-    }
-  }
+  
   function issue() {
 	var x = document.getElementById('issueVid');
 	if (x.style.visibility === 'hidden') {
@@ -38,14 +30,7 @@ function issue() {
   }
 
 
-function myFunction() {
-    var x = document.getElementById("myDIV");
-    if (x.style.display === "none") {
-      x.style.display = "block";
-    } else {
-      x.style.display = "none";
-    }
-  }
+
   function myFunction() {
 	var x = document.getElementById('myDIV');
 	if (x.style.visibility === 'hidden') {
