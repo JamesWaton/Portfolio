@@ -1695,6 +1695,7 @@ input, select, textarea {
 	.image {
 		display: inline-block;
 		position: relative;
+		
 	}
 
 		.image img {
@@ -1711,6 +1712,7 @@ input, select, textarea {
 			display: block;
 			width: 100%;
 			margin: 0 0 2em 0;
+			
 		}
 
 		.image.left {
@@ -1912,29 +1914,25 @@ a:link {
 		position:absolute;
 		
 		
-	}	
-
-	
-	
+	}			
 	.sudoku{
 		max-width: 18em;
 		position:absolute;
 		margin-top: 2%;	
-		margin-bottom: 2%;	
-			
-		
-		
-	}		  
-	 
+		margin-bottom: 2%;				
+	}		   
 
-		  .issueTracker{
-			max-width: 18em;
-			position:absolute;
-			margin-top: 2%;
-			
-			
-			
+  .issueTracker{
+	    max-width: 18em;
+	    position:absolute;
+		margin-top: 2%;			
 		}
+
+  .MarsWeather{
+    	max-width: 18em;
+		position:absolute;
+		margin-top: 2%;			
+			}
 		
 			
 
@@ -1968,7 +1966,7 @@ a:link {
 		}
 
 		.box.style2 .image {
-			border-radius: 25px;
+		
 			position: relative;
 			left: 2em;
 			top: 2em;
@@ -2370,6 +2368,7 @@ a:link {
 			.box {
 				padding: 30px 20px 30px 20px;
 				margin: 0 0 20px 0 !important;
+				border-bottom: 0mm;
 			}
 
 				.box h3 {

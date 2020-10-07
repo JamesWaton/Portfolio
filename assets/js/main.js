@@ -29,6 +29,15 @@
 	}
   }
 
+  function mars() {
+	var x = document.getElementById('MarsWeatherVid');
+	if (x.style.visibility === 'hidden') {
+	  x.style.visibility = 'visible';
+	} else {
+	  x.style.visibility = 'hidden';
+	}
+  }
+
 
 
   function myFunction() {
